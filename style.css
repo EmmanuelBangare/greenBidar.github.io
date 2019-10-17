@@ -1,0 +1,155 @@
+body{
+margin: 0;
+background-color: #053d19;
+}
+
+
+/*HEADER*/
+.nav{
+
+display: flex;
+background-color: #053d19;
+width: 100%;
+color: #ffffff;
+
+
+}
+
+.sticky{
+position: fixed;
+width: 100%;
+top:0;
+}
+
+@media only screen and (max-width: 600px){
+.nav{
+font-size: 0.75em;
+}
+}
+
+
+.left{
+
+display: flex;
+
+}
+
+.right{
+
+display: flex;
+margin-left: auto;
+padding-right: 15px;
+}
+
+a{
+text-decoration: none;
+color: #ffffff;
+
+}
+
+/*HEADER END*/
+
+
+
+
+/*COVER*/
+
+.cover{
+
+background: url(green.png)
+center center fixed no-repeat;
+background-size: cover;
+height: 50vh;
+font-size: 15vh;
+text-align: center;
+color: white;
+width: 100%;
+padding-top: 25px
+
+}
+
+
+.text1{
+margin-top: 10%;
+}
+
+
+@media only screen and (max-width: 600px){
+.text1{
+font-size: 10vh;
+}
+}
+
+
+.project{
+padding-bottom: 50px;
+color: yellowgreen;
+text-align: center;
+margin-top: 10px;
+display: grid;
+grid-gap: 10px;
+grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+}}
+
+
+
+.box{
+background-image:
+radial-gradient(
+circle at top left,
+#053d19, #528810);
+border-color: white;
+width: 1fr;
+height: 335px;
+
+}
+
+
+.box{
+transition: all .5s ease-in-out; 
+color: #71AB01;  
+}
+.box:hover{
+transform: scale(1.1);
+
+
+}
+
+
+.footer{
+
+width: 100%;
+height: 50px;
+position:  fixed;
+bottom:0;
+background-image:
+linear-gradient(
+
+#528810, #053d19);
+vertical-align: baseline;
+text-align: center;
+
+} 
+
+.text {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 50%;
+margin: auto;
+text-transform: uppercase;
+color: white;
+}
+
+
+a:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #659F00;
+}
