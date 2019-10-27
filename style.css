@@ -21,7 +21,7 @@ width: 100%;
 top:0;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 360px){
 .nav{
 font-size: 0.75em;
 }
@@ -60,7 +60,7 @@ background: url(green.png)
 center center fixed no-repeat;
 background-size: cover;
 height: 50vh;
-font-size: 15vh;
+font-size: 10vh;
 text-align: center;
 color: white;
 width: 100%;
@@ -74,9 +74,9 @@ margin-top: 10%;
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 360px){
 .text1{
-font-size: 10vh;
+font-size: 8vh;
 }
 }
 
